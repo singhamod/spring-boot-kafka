@@ -31,7 +31,7 @@ $ sudo apt-get install default-jdk
 ### Step 3: Create Topic
 ```kafka-topics.sh --topic first_topic --create --partitions 3 --replication-factor 1 --bootstrap-server localhost:9092```
 
-### Step 4: Start Spring Boot
+# Start Spring Boot
 Spring boot application runs on port 9000 by default. It has one producer and one consumer. Import the maven project into an IDE and execute 
 
 #### Create a message
